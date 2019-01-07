@@ -1,0 +1,50 @@
+@import "./buttons.css";
+
+body {
+  margin: 0;
+  height: 100vh;
+  min-height: 100vh;
+  max-width: 100vw;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ol,
+ul {
+  padding: 0;
+  padding-top: 20px;
+}
+
+.square {
+  background: #fff;
+  border: 5px solid #999;
+  float: left;
+  font-size: 104px;
+  font-weight: bold;
+  line-height: 200px;
+  height: 200px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 200px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
